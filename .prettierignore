@@ -1,0 +1,13 @@
+**/node_modules
+
+**/types
+
+.yarn
+.idea
+.vscode
+
+!.eslintrc.cjs
+!.prettier.config.cjs
+
+.pnp.cjs
+.pnp.loader.mjs

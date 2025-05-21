@@ -1,0 +1,18 @@
+{
+    "name": "typescript-eslint-issue-1",
+    "packageManager": "yarn@4.3.1",
+    "type": "module",
+    "scripts": {
+        "build:types-tsc": "tsc",
+        "format:code": "prettier --log-level warn --write \"{**/*,*}.{ts,tsx,js,jsx,cjs,mjs,json,md,yml}\" --cache",
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "@eslint/js": "9.27.0",
+        "@types/node": "20.11.10",
+        "eslint": "9.27.0",
+        "prettier": "3.5.3",
+        "typescript": "5.8.3",
+        "typescript-eslint": "8.32.1"
+    }
+}
